@@ -459,6 +459,7 @@
                 document.getElementById("TTL").value = "";
                 document.getElementById("ticket").value = "";
                 document.getElementById("comment").value = "";
+                document.getElementById("lblmsg").value = "";
                 
             });
             $("#show").click(function () {
@@ -476,7 +477,8 @@
                 document.getElementById("PolicyName").value = "";
                 document.getElementById("SharedAccessKey").value = "";
                 document.getElementById("Hash").value = "";
-                document.getElementById("ticket").value = "";
+                document.getElementById("ticket").value = "";               
+                document.getElementById("lblmsg").value = "";
 
             });
         });
